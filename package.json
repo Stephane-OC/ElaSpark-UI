@@ -1,0 +1,31 @@
+{
+  "name": "easyelamodal",
+  "version": "1.0.0",
+  "description": "EasyElaModals est une bibliothèque React légère et personnalisable pour créer des modales responsives et animées facilement.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist --copy-files",
+    "start": "npm run build -- --watch",
+    "prepublish": "npm run build"
+  },
+  "keywords": ["react", "modal", "ui", "library", "component", "react-component"],
+  "author": "Stephane-OC",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3",
+    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/react": "^14.1.2",
+    "jest": "^29.7.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "css-loader": "^6.7.1"
+  }
+}

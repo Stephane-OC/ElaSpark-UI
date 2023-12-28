@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules
+
+# Build output directories
+/dist
+
+# Environment configuration files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache and log folders
+.npm
+.cache
+*.log
+*.tmp
+*.temp
+
+# Editor-specific folders
+.idea
+.vscode
+*.swp
+
+# System specific files
+.DS_Store
+Thumbs.db
+
+# Build files
+*.build.js
+build/
+.temp/
+
+# Bundle files, if you generate any
+*.bundle.js
