@@ -1,0 +1,174 @@
+/* Animation 1: Fade In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal.fadeIn {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Animation 2: Fade Out */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.modal.fadeOut {
+    animation: fadeOut 0.5s ease-in-out;
+}
+
+/* Animation 3: Flash */
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.modal.flash {
+    animation: flash 1s ease-out forwards;
+}
+
+/* Animation 4: Soft Blink */
+@keyframes softBlink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.modal.softBlink {
+    animation: softBlink 2s ease-in-out infinite;
+}
+
+/* Animation 5: Gradual Disappear */
+@keyframes gradualDisappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.modal.gradualDisappear {
+    animation: gradualDisappear 1s ease-out;
+}
+
+
+/* Animation 6: Gradual Appear */
+@keyframes gradualAppear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal.gradualAppear {
+    animation: gradualAppear 1s ease-in;
+}
+
+/* Animation 7: Sparkle */
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.modal.sparkle {
+    animation: sparkle 0.5s ease-in-out;
+}
+
+/* Animation 8: Rotate */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.modal.rotate {
+    animation: rotate 0.5s ease-in-out;
+}
+
+/* Animation 9: General Neon */
+@keyframes neonGlow {
+    0%, 100% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px neonColor, 0 0 70px neonColor, 0 0 80px neonColor, 0 0 100px neonColor, 0 0 150px neonColor;
+    }
+    50% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px neonColor, 0 0 35px neonColor, 0 0 40px neonColor, 0 0 50px neonColor, 0 0 75px neonColor;
+    }
+}
+
+/* Animation 10: Starry Night Violet Neon */
+.modal.neon-violet {
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 10px #622879, 0 0 25px #3a1349d3, 0 0 50px #9b59b6;
+}
+
+/* Animation 11: Starry Night Blue Neon */
+.modal.neon-bleu {
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 5px #3498db, 0 0 25px #3498db, 0 0 50px #3498db;
+}
+
+/* Animation 12: Green Neon */
+.modal.neon-vert {
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 5px #2ecc71, 0 0 25px #2ecc71, 0 0 50px #2ecc71;
+}
+
+/* Animation 13: Red Neon */
+.modal.neon-rouge {
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 5px #e74c3c, 0 0 25px #e74c3c, 0 0 50px #e74c3c;
+}
+
+@keyframes swell {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.modal.swell {
+    animation: swell 0.5s ease-in-out;
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.9);
+    }
+}
+
+.modal.shrink {
+    animation: shrink 0.5s ease-in-out;
+}

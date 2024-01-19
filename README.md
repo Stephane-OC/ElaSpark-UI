@@ -62,7 +62,7 @@ comme envoyer une requête API ou enregistrer des données dans le local storage
 
 ```jsx
 <Modal>
-  {/* Contenu */}
+  {/* Content */}
   <button
     onClick={() => {
       /* Your code for making an API request or storing in local storage */

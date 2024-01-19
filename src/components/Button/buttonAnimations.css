@@ -1,0 +1,184 @@
+/* Animation 1: Wave Effect on Hover */
+@keyframes waveEffect {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.button.wave:hover {
+    animation: waveEffect 0.5s ease forwards;
+}
+
+/* Animation 2: Drop Shadow Effect */
+.button.shadow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation 3: Rotation on Hover */
+@keyframes rotateEffect {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.button.rotate:hover {
+    animation: rotateEffect 0.7s ease-in-out;
+}
+
+/* Animation 4: Pulsating Effect */
+@keyframes pulseEffect {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button.pulse:hover {
+    animation: pulseEffect 1s infinite;
+}
+
+/* Animation 5: Swinging Effect */
+@keyframes swingEffect {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(10deg);
+    }
+
+    20% {
+        transform: rotate(-10deg);
+    }
+
+    30% {
+        transform: rotate(10deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(-10deg);
+    }
+
+    70% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(-10deg);
+    }
+
+    90% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.button.swing:hover {
+    animation: swingEffect 1s ease;
+}
+
+
+/* Animation 6: Vertical Stretch Effect */
+@keyframes stretchVerticalEffect {
+    from {
+        transform: scaleY(1);
+    }
+
+    to {
+        transform: scaleY(1.2);
+    }
+}
+
+.button.stretchVertical:hover {
+    animation: stretchVerticalEffect 0.3s ease;
+}
+
+/* Animation 7: Horizontal Stretch Effect */
+@keyframes stretchHorizontalEffect {
+    from {
+        transform: scaleX(1);
+    }
+
+    to {
+        transform: scaleX(1.2);
+    }
+}
+
+.button.stretchHorizontal:hover {
+    animation: stretchHorizontalEffect 0.3s ease;
+}
+
+/* Animation 8: Bouncing Effect */
+@keyframes bounceEffect {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button.bounce:hover {
+    animation: bounceEffect 0.6s ease;
+}
+
+/* Animation 9: Blur Effect */
+@keyframes blurEffect {
+    from {
+        filter: blur(0px);
+    }
+
+    to {
+        filter: blur(2px);
+    }
+}
+
+.button.blur:hover {
+    animation: blurEffect 0.5s ease;
+}
+
+/* Animation 10: Gradual Color Change Effect */
+@keyframes colorFadeEffect {
+    from {
+        background-color: initial;
+    }
+
+    to {
+        background-color: #007bff;
+    }
+}
+
+.button.colorFade:hover {
+    animation: colorFadeEffect 0.5s ease;
+}

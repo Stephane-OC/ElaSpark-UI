@@ -1,9 +1,24 @@
-import React from 'react';
-import '../styles/button.css';
+import React from "react";
+import "./Button.css";
+import "./buttonAnimations.css";
 
-const Button = ({ children, onClick, animation, styleType }) => {
+const Button = ({
+  children,
+  size = "b-m",
+  styleType = "btn-1",
+  animation,
+  borderStyle,
+  onClick,
+  className = "",
+}) => {
   
-  return <button className={`button ${animation} ${styleType}`} onClick={onClick}>{children}</button>;
+  const buttonClass = `button ${size} ${styleType} ${animation || ""} ${borderStyle || ""} ${className}`.trim();
+
+  return (
+    <button className={buttonClass} onClick={onClick}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;

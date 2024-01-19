@@ -1,0 +1,227 @@
+/* Button Sizes */
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+/* Specific Sizes */
+.button.b-s {
+    width: 100px;
+}
+
+.button.b-m {
+    width: 150px;
+}
+
+.button.b-l {
+    width: 200px;
+}
+
+.button.b-xl {
+    width: 250px;
+}
+
+/* Container for Buttons */
+.b-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+/* Align Buttons to the Right */
+.b-container.b-r {
+    justify-content: flex-end;
+}
+
+/* Center the Buttons */
+.b-container.b-c {
+    justify-content: center;
+}
+
+/* Align Buttons to the Left */
+.b-container.b-l {
+    justify-content: flex-start;
+}
+
+/* Automatic Spacing Between Buttons */
+.b-container.b-auto {
+    justify-content: space-around;
+}
+
+/* Button Styles Within the Container */
+.b-container .button {
+    margin: 0 5px;
+}
+
+/* Border Styles */
+.button.b-b-1 {
+    border-radius: 2px;
+}
+
+.button.b-b-2 {
+    border-radius: 8px;
+}
+
+.button.b-b-3 {
+    border-radius: 16px;
+}
+
+/* Individual Button Styles */
+
+/* Btn 1: Blue */
+.button.btn-1 {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.button.btn-1:hover {
+    background-color: #0056b3;
+}
+
+/* Btn 2: Green */
+.button.btn-2 {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.button.btn-2:hover {
+    background-color: #1e7e34;
+}
+
+/* Btn 3: Yellow */
+.button.btn-3 {
+    background-color: #ffc107;
+    color: #1a1a1a;
+}
+
+.button.btn-3:hover {
+    background-color: #e0a800;
+}
+
+/* Btn 4: Teal Blue */
+.button.btn-4 {
+    background-color: #17a2b8;
+    color: #ffffff;
+}
+
+.button.btn-4:hover {
+    background-color: #138496;
+}
+
+/* Btn 5: Red */
+.button.btn-5 {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.button.btn-5:hover {
+    background-color: #c82333;
+}
+
+/* Btn 6: Orange */
+.button.btn-6 {
+    background-color: #fd7e14;
+    color: #1a1a1a;
+}
+
+.button.btn-6:hover {
+    background-color: #e36c09;
+}
+
+/* Btn 7: Purple */
+.button.btn-7 {
+    background-color: #6f42c1;
+    color: #ffffff;
+}
+
+.button.btn-7:hover {
+    background-color: #5a3ea8;
+}
+
+/* Btn 8: Mint Green */
+.button.btn-8 {
+    background-color: #20c997;
+    color: #ffffff;
+}
+
+.button.btn-8:hover {
+    background-color: #1b8f72;
+}
+
+/* Btn 9: Indigo */
+.button.btn-9 {
+    background-color: #6610f2;
+    color: #ffffff;
+}
+
+.button.btn-9:hover {
+    background-color: #520dc2;
+}
+
+/* Btn 10: Pink */
+.button.btn-10 {
+    background-color: #d63384;
+    color: #ffffff;
+}
+
+.button.btn-10:hover {
+    background-color: #b52a6a;
+}
+
+/* Individual Button Border Styles */
+
+/* Button Borders 1: Standard Solid Border */
+.button.b-b-1 {
+    border: 2px solid #007bff;
+}
+
+/* Button Borders 2: Dotted Border */
+.button.b-b-2 {
+    border: 2px dotted #28a745;
+}
+
+/* Button Borders 3: Dashed Border */
+.button.b-b-3 {
+    border: 2px dashed #ffc107;
+}
+
+/* Button Borders 4: Thicker Border */
+.button.b-b-4 {
+    border: 3px solid #17a2b8;
+}
+
+/* Button Borders 5: Rounded Border */
+.button.b-b-5 {
+    border: 2px solid #dc3545;
+    border-radius: 10px;
+}
+
+/* Button Borders 6: Double Border */
+.button.b-b-6 {
+    border: double 3px #fd7e14;
+}
+
+/* Button Borders 7: Grooved Border */
+.button.b-b-7 {
+    border: 2px groove #6f42c1;
+}
+
+/* Button Borders 8: Inset Border */
+.button.b-b-8 {
+    border: 2px inset #20c997;
+}
+
+/* Button Borders 9: Shadowed Border */
+.button.b-b-9 {
+    border: 2px solid #6610f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Borders 10: Wavy Border */
+.button.b-b-10 {
+    border: 2px wavy #d63384;
+}

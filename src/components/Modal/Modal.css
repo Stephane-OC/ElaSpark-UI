@@ -1,0 +1,351 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    width: 90%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+/* Border Radius Styles */
+.br-none {
+    border-radius: 0;
+}
+
+.br-sm {
+    border-radius: 4px;
+}
+
+.br-md {
+    border-radius: 8px;
+}
+
+.br-lg {
+    border-radius: 16px;
+}
+
+.br-round {
+    border-radius: 50%;
+}
+
+/* Style 1: Elegant and Classic */
+.modal-style-1 {
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #1a1a1a;
+}
+
+/* Style 2: Modern and Bold with a Colored Outline */
+.modal-style-2 {
+    color: #1a1a1a;
+    border: 4px solid #007bff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Style 3: Elegant Card with Subtle Border and Light Gray Background */
+.modal-style-3 {
+    border: 1px solid #eaeaea;
+    background: #f7f7f7;
+    color: #1a1a1a;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Style 4: Dark and Sophisticated */
+.modal-style-4 {
+    background: #333;
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Style 5: Bright and Refined */
+.modal-style-5 {
+    background: #f0f0f0;
+    color: #1a1a1a;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style 6: Dark and Elegant */
+.modal-style-6 {
+    background: #2d2d2d;
+    color: #eaeaea;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Style 7: Colorful and Vibrant */
+.modal-style-7 {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: #1a1a1a;
+    border: none;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style 8: Minimalist with Blue Background */
+.modal-style-8 {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Style 9: Subtle Elegance with Soft Shadow */
+.modal-style-9 {
+    background: #ffffff;
+    color: #1a1a1a;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Style 10: Dark with Colored Border */
+.modal-style-10 {
+    background: #1a1a1a;
+    color: white;
+    border: 2px solid #ff4500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Style 11: Light with Thin Colored Border */
+.modal-style-11 {
+    background: #f8f8f8;
+    color: #1a1a1a;
+    border: 1px solid #4e9af1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Style 12: Teal Green */
+.modal-style-12 {
+    background: #38b2ac;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Style 13: Indigo */
+.modal-style-13 {
+    background: #5a67d8;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Backdrop 1: Dark Background with Opacity */
+.modal-backdrop-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 2: Light Background with Opacity */
+.modal-backdrop-light {
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 10000;
+}
+
+/* Backdrop 3: Darker Opaque Background */
+.modal-backdrop-dark-opaque {
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
+}
+
+/* Backdrop 4: Lighter Opaque Background */
+.modal-backdrop-light-opaque {
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 10000;
+}
+
+/* Backdrop 5: Tailwind Indigo Color */
+.modal-backdrop-indigo {
+    background-color: rgba(79, 70, 229, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 6: Tailwind Red Color */
+.modal-backdrop-red {
+    background-color: rgba(239, 68, 68, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 7: Tailwind Green Color */
+.modal-backdrop-green {
+    background-color: rgba(34, 197, 94, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 8: Light Blue Background */
+.modal-backdrop-blue-light {
+    background-color: rgba(147, 197, 253, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 9: Pale Pink Background */
+.modal-backdrop-pink-light {
+    background-color: rgba(252, 165, 165, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 10: Pale Yellow Background */
+.modal-backdrop-yellow-light {
+    background-color: rgba(253, 224, 71, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 11: Purple Background */
+.modal-backdrop-purple {
+    background-color: rgba(168, 85, 247, 0.5);
+    z-index: 10000;
+}
+
+/* Backdrop 12: Clear Background */
+.modal-backdrop-clear {
+    background-color: transparent;
+}
+
+/* Managing Modal Centering */
+.modal.m-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Modal Sizes */
+.modal.m-s {
+    max-width: 300px;
+}
+
+.modal.m-m {
+    max-width: 500px;
+}
+
+.modal.m-l {
+    max-width: 700px;
+}
+
+.modal.m-xl {
+    max-width: 900px;
+}
+
+/* Alignment Styles */
+.modal-title.left,
+.modal-logo.left,
+.modal-paragraph.left {
+    text-align: left;
+}
+
+.modal-title.center,
+.modal-logo.center,
+.modal-paragraph.center {
+    text-align: center;
+}
+
+.modal-title.right,
+.modal-logo.right,
+.modal-paragraph.right {
+    text-align: right;
+}
+
+/* Title Styles */
+.t-1 {
+    font-size: 1.5em;
+}
+
+.t-2 {
+    font-size: 1.25em;
+}
+
+.t-3 {
+    font-size: 1.125em;
+}
+
+.t-4 {
+    font-size: 1em;
+}
+
+/* Paragraph Styles */
+.p-1 {
+    font-size: 1em;
+}
+
+.p-2 {
+    font-size: 0.875em;
+}
+
+.p-3 {
+    font-size: 0.75em;
+}
+
+
+/* Container for Image / Logo and Title */
+/* When Logo is Present */
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+/* When Logo is Absent */
+.modal-header.no-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.modal-logo {
+    width: 30%;
+}
+
+.modal-title {
+    width: 70%;
+}
+
+.modal-content {
+    padding: 16px;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        width: 70%;
+    }
+
+    .modal.m-s {
+        max-width: 400px;
+    }
+
+    .modal.m-m {
+        max-width: 600px;
+    }
+
+    .modal.m-l {
+        max-width: 800px;
+    }
+
+    .modal.m-xl {
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal {
+        width: 50%;
+    }
+}
