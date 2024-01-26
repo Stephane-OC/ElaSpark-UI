@@ -123,29 +123,121 @@
     }
 }
 
-/* Animation 10: Starry Night Violet Neon */
-.modal.neon-violet {
+/* Animation 10: Starry Night purple Neon */
+.modal.neon-purple {
     animation: neonGlow 1.5s ease-in-out infinite alternate;
     box-shadow: 0 0 10px #622879, 0 0 25px #3a1349d3, 0 0 50px #9b59b6;
 }
 
 /* Animation 11: Starry Night Blue Neon */
-.modal.neon-bleu {
+.modal.neon-blue {
     animation: neonGlow 1.5s ease-in-out infinite alternate;
     box-shadow: 0 0 5px #3498db, 0 0 25px #3498db, 0 0 50px #3498db;
 }
 
 /* Animation 12: Green Neon */
-.modal.neon-vert {
+.modal.neon-green {
     animation: neonGlow 1.5s ease-in-out infinite alternate;
     box-shadow: 0 0 5px #2ecc71, 0 0 25px #2ecc71, 0 0 50px #2ecc71;
 }
 
 /* Animation 13: Red Neon */
-.modal.neon-rouge {
+.modal.neon-red {
     animation: neonGlow 1.5s ease-in-out infinite alternate;
     box-shadow: 0 0 5px #e74c3c, 0 0 25px #e74c3c, 0 0 50px #e74c3c;
 }
+
+/* Animation 14: Orange Neon */
+.modal.neon-orange {
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 5px #e67e22, 0 0 25px #d35400, 0 0 50px #e67e22;
+}
+
+/* Animation 15: Pink Neon */
+.modal.neon-pink {
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 5px #ff69b4, 0 0 25px #ff1493, 0 0 50px #ff69b4;
+}
+
+/* Animation 16: Yellow Neon */
+.modal.neon-yellow {
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 5px #f1c40f, 0 0 25px #f39c12, 0 0 50px #f1c40f;
+}
+
+@keyframes borderNeon {
+    0%, 100% {
+        border-color: #8e44ad;
+    }
+    33% {
+        border-color: #3498db;
+    }
+    66% {
+        border-color: #1abc9c;
+    }
+}
+
+.modal.border-neon {
+    border: 3px solid;
+    animation: borderNeon 3s ease-in-out infinite;
+}
+
+@keyframes bluePurpleNeon {
+    0%, 100% {
+        border-color: #3498db;
+    }
+    50% {
+        border-color: #9b59b6;
+    }
+}
+
+.modal.border-neon-blue-purple {
+    border: 3px solid;
+    animation: bluePurpleNeon 2s linear infinite;
+}
+
+@keyframes redOrangeNeon {
+    0%, 100% {
+        border-color: #e74c3c;
+    }
+    50% {
+        border-color: #e67e22;
+    }
+}
+
+.modal.border-neon-red-orange {
+    border: 3px solid;
+    animation: redOrangeNeon 2s linear infinite;
+}
+
+@keyframes greenYellowNeon {
+    0%, 100% {
+        border-color: #2ecc71;
+    }
+    50% {
+        border-color: #f1c40f;
+    }
+}
+
+.modal.border-neon-green-yellow {
+    border: 3px solid;
+    animation: greenYellowNeon 2s linear infinite;
+}
+
+@keyframes rainbowNeon {
+    0%   { border-color: #e74c3c; }
+    20%  { border-color: #f1c40f; }
+    40%  { border-color: #2ecc71; }
+    60%  { border-color: #3498db; }
+    80%  { border-color: #9b59b6; }
+    100% { border-color: #e74c3c; }
+}
+
+.modal.border-neon-rainbow {
+    border: 3px solid;
+    animation: rainbowNeon 3s linear infinite;
+}
+
 
 @keyframes swell {
     from {

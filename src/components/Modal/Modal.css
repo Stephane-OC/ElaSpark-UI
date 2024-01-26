@@ -16,13 +16,13 @@
 }
 
 .modal {
-    width: 90%;
+    height: auto;
+    min-height: 100px;
     background: white;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-
 
 /* Border Radius Styles */
 .br-none {
@@ -227,21 +227,30 @@
 }
 
 /* Modal Sizes */
+.modal.m-xxs {
+    max-width: 200px;
+}
+
 .modal.m-s {
     max-width: 300px;
 }
 
 .modal.m-m {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .modal.m-l {
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .modal.m-xl {
-    max-width: 900px;
+    max-width: 600px;
 }
+
+.modal.m-xxl {
+    max-width: 800px;
+}
+
 
 /* Alignment Styles */
 .modal-title.left,
@@ -292,7 +301,6 @@
     font-size: 0.75em;
 }
 
-
 /* Container for Image / Logo and Title */
 /* When Logo is Present */
 .modal-header {
@@ -323,16 +331,46 @@
 }
 
 @media (min-width: 768px) {
-    .modal {
-        width: 70%;
+    .modal.m-xxs {
+        max-width: 200px;
     }
 
     .modal.m-s {
-        max-width: 400px;
+        max-width: 300px;
     }
 
     .modal.m-m {
-        max-width: 600px;
+        max-width: 500px;
+    }
+
+    .modal.m-l {
+        max-width: 700px;
+    }
+
+    .modal.m-xl {
+        max-width: 900px;
+    }
+
+    .modal.m-xxl {
+        max-width: 1100px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .modal {
+        max-height: 80vh;
+    }
+    .modal.m-xxs {
+        max-width: 200px;
+    }
+
+    .modal.m-s {
+        max-width: 300px;
+    }
+
+    .modal.m-m {
+        max-width: 500px;
     }
 
     .modal.m-l {
@@ -342,10 +380,34 @@
     .modal.m-xl {
         max-width: 1000px;
     }
+
+    .modal.m-xxl {
+        max-width: 1200px;
+    }
 }
 
-@media (min-width: 992px) {
-    .modal {
-        width: 50%;
+@media (min-width: 1440px) {
+    .modal.m-xxs {
+        max-width: 200px;
+    }
+
+    .modal.m-s {
+        max-width: 300px;
+    }
+
+    .modal.m-m {
+        max-width: 500px;
+    }
+
+    .modal.m-l {
+        max-width: 800px;
+    }
+
+    .modal.m-xl {
+        max-width: 1000px;
+    }
+
+    .modal.m-xxl {
+        max-width: 1200px;
     }
 }
