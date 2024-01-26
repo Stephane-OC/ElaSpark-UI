@@ -39,7 +39,7 @@ const Modal = ({
       );
       if (focusableElements.length) focusableElements[0].focus();
     }
-  };
+  }; 
 
   const modalSizeClass = size;
   const modalStyleClass = `modal-${styleType}`;
