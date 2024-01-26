@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/img/logo.png" width="70" height="70" alt="Ela Spark UI Logo">
+  <img src="https://i.imgur.com/mIUQ6dO.png" width="70" height="70" alt="Ela Spark UI Logo">
   <br>
   <span style="font-size: larger;"><b>Ela Spark UI</b></span>
 </p>

@@ -1,6 +1,6 @@
 {
   "name": "elaspark-ui",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ElaSpark-UI - A sleek, responsive, and customizable modal library for React. Effortlessly create stunning modal windows with rich animations, full responsiveness, and easy integration. Perfect for enhancing user experience with elegant UI design in any React application.",
   "main": "dist/index.js",
   "module": "dist/index.js",
