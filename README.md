@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="src/assets/img/logo.png" width="70" height="70" alt="Easy Ela Modals Logo">
+  <img src="src/assets/img/logo.png" width="70" height="70" alt="Ela Spark UI Logo">
   <br>
   <span style="font-size: larger;"><b>Easy Ela Modals</b></span>
 </p>
 
 
-# EasyElaModals
+# ElaSpark-UI
 
-EasyElaModals is a lightweight, customizable React library for creating responsive and animated modals with ease. 
+ElaSpark-UI is a lightweight, customizable React library for creating responsive and animated modals with ease. 
 Perfect for adding a touch of elegance and interactivity to your web projects.
 
 ## Features
@@ -21,17 +21,17 @@ Perfect for adding a touch of elegance and interactivity to your web projects.
 ## Installation
 
 ```bash
-npm install EasyElaModals
+npm install elaspark-ui
 ```
 
-You can install EasyElaModals via npm:
+You can install ElaSpark-UI via npm:
 
-To use EasyElaModals in your React project, follow these simple steps:
+To use ElaSpark-UI in your React project, follow these simple steps:
 
-1. Import EasyElaModals:
+1. Import ElaSpark-UI:
 
 ```jsx
-import { Modal } from 'EasyElaModals';
+import { Modal } from 'elaspark-ui';
 ```
 
 2. Use Modal in your React component:
@@ -101,7 +101,7 @@ function App() {
 Here's an example showing how to integrate a logo, title, and textual content with specific layout and animation:
 
 ```jsx
-import { Modal } from "EasyElaModals";
+import { Modal } from "elaspark-ui";
 
 function CustomModalExample() {
   return (
@@ -139,12 +139,15 @@ function CustomModalExample() {
 
 ### Use the following classes to define your modal size:
 
+- **m-xxs:** Extra Extra Small
+- **m-xs:** Extra Small
 - **m-s:** Small
 - **m-m:** Medium
 - **m-l:** Large
 - **m-xl:** Extra Large
+- **m-xxl:** Extra Extra Large
 
-### EasyElaModals offers a variety of predefined styles to customize the appearance of your modals. Use the `styleType` prop to choose from the following styles:
+### ElaSpark-UI offers a variety of predefined styles to customize the appearance of your modals. Use the `styleType` prop to choose from the following styles:
 
 - **style-1:** Elegant and Classic
 - **style-2:** Modern with Colored Outline
@@ -274,7 +277,7 @@ function CustomModalExample() {
 ## Modal with Animation
 
 ```jsx
-import { Modal } from "EasyElaModals";
+import { Modal } from "elaspark-ui";
 
 function AnimatedModalExample() {
   return (
@@ -324,13 +327,13 @@ The `Modal` component is designed with accessibility features to ensure usabilit
 </Modal>
 ```
 
-# EasyElaModals Buttons
+# ElaSpark-UI Buttons
 
-**EasyElaModals** offers a variety of customizable buttons that you can use in your modals and elsewhere in your React projects.
+**ElaSpark-UI** offers a variety of customizable buttons that you can use in your modals and elsewhere in your React projects.
 
 # Integrated Buttons
 
-EasyElaModals modals can include customizable buttons for various actions. 
+elaspark-ui modals can include customizable buttons for various actions. 
 You can freely name them (e.g., "Accept", "Cancel", "Reject") and assign them specific functions, 
 such as sending an API request or saving data in local storage.
 
@@ -356,10 +359,10 @@ such as sending an API request or saving data in local storage.
 
 ## Using the Buttons
 
-To use EasyElaModals buttons, import the `Button` component and use it in your application:
+To use ElaSpark-UI buttons, import the `Button` component and use it in your application:
 
 ```jsx
-import { Button } from 'EasyElaModals';
+import { Button } from 'elaspark-ui';
 
 function App() {
   return (
@@ -488,7 +491,7 @@ The `Button` component in our library supports several accessibility attributes 
 
 ## Button Styles and Animations
 
-EasyElaModals also offers a variety of styles and animations for buttons, 
+ElaSpark-UI also offers a variety of styles and animations for buttons, 
 allowing you to tailor them to the look and feel of your application.
 
 ## Using Animations
@@ -496,7 +499,7 @@ allowing you to tailor them to the look and feel of your application.
 To apply an animation to a button, use the `animation` prop with the desired animation name.
 
 ```jsx
-import { Button } from 'EasyElaModals';
+import { Button } from 'elaspark-ui';
 
 function App() {
   return (
@@ -577,7 +580,7 @@ function App() {
 Easily integrate buttons into your modals:
 
 ```jsx
-import { Modal, Button } from 'EasyElaModals';
+import { Modal, Button } from 'elaspark-ui';
 
 function MyComponent() {
   return (
@@ -594,7 +597,7 @@ function MyComponent() {
 ### Modal Example with Right-Aligned Buttons
 
 ```jsx
-import { Modal, Button } from 'EasyElaModals';
+import { Modal, Button } from 'elaspark-ui';
 
 function ModalWithRightAlignedButtons() {
   return (
@@ -612,7 +615,7 @@ function ModalWithRightAlignedButtons() {
 ### Modal Example with Colored Buttons
 
 ```jsx
-import { Modal, Button } from 'EasyElaModals';
+import { Modal, Button } from 'elaspark-ui';
 
 function ModalWithColoredButtons() {
   return (
@@ -630,7 +633,7 @@ function ModalWithColoredButtons() {
 ### Modal Example with Uniformly Spaced Buttons
 
 ```jsx
-import { Modal, Button } from 'EasyElaModals';
+import { Modal, Button } from 'elaspark-ui';
 
 function ModalWithEvenlySpacedButtons() {
   return (
@@ -653,7 +656,7 @@ In this example, the "Save" button stores information in localStorage.
 
 ```jsx
 import React from "react";
-import { Modal, Button } from "EasyElaModals";
+import { Modal, Button } from "elaspark-ui";
 
 function ModalLocalStorage() {
   const handleLocalStorageSave = () => {
@@ -680,7 +683,7 @@ function ModalLocalStorage() {
 
 ```jsx
 import React from "react";
-import { Modal, Button } from "EasyElaModals";
+import { Modal, Button } from "elaspark-ui";
 
 function ModalApiSubmit() {
   const handleApiSubmit = () => {
@@ -715,6 +718,6 @@ Created with ❤️ by Stephane-OC
 
 ## License
 
-EasyElaModals is distributed under the MIT License. 
+ElaSpark-UI is distributed under the MIT License. 
 This license permits use, modification, and free distribution, provided that the MIT License text is included with any substantial distribution of the software. 
 For more information, please refer to the `LICENSE` file included with this distribution or visit [MIT License](https://opensource.org/licenses/MIT).

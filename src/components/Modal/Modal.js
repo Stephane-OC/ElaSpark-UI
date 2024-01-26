@@ -5,7 +5,7 @@ import "./Modal.css";
 import "./modalsAnimations.css";
 
 const Modal = ({
-  size = "s",
+  size = "m-s",
   backdropStyle = "dark",
   centered = false,
   styleType = "1",
@@ -41,7 +41,7 @@ const Modal = ({
     }
   };
 
-  const modalSizeClass = `modal-${size}`;
+  const modalSizeClass = size;
   const modalStyleClass = `modal-${styleType}`;
   const centerClass = centered ? "m-center" : "";
   const animationClass = animation ? animation : "";
